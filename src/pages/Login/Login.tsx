@@ -3,7 +3,7 @@ import {Typography} from "@mui/material";
 
 export const Login = () => {
     return (
-        <Typography>
+        <Typography variant={'h2'} mb={4}>
             Страница авторизации
         </Typography>
     );

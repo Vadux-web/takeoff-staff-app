@@ -6,11 +6,11 @@ export const Footer = () => {
     return (
         <Box
             component="footer"
-            sx={{py: 1, mt: 'auto', borderTop: '1px solid lightgray'}}
+            sx={{py: 1, mt: 'auto', bgcolor: 'primary.main'}}
         >
-                <Typography variant="body1">
-                    2022
-                </Typography>
+            <Typography variant="body1" color="white">
+                2022
+            </Typography>
         </Box>
     );
 }

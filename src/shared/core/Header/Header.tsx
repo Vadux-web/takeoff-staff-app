@@ -10,7 +10,7 @@ export const Header = () => {
     return (
         <Box>
             <AppBar position="static">
-                <Toolbar sx={{justifyContent: 'space-between'}}>
+                <Toolbar sx={{bgcolor: 'primary.main', justifyContent: 'space-between'}}>
                     <Button component={NavLink} to="/contacts" color="inherit" sx={ButtonSx}>Список
                         контактов</Button>
                     <Button component={NavLink} to="/login" color="inherit" sx={ButtonSx}>Войти</Button>
@@ -19,3 +19,4 @@ export const Header = () => {
         </Box>
     );
 }
+

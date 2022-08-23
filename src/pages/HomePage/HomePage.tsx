@@ -3,8 +3,8 @@ import {Typography} from "@mui/material";
 
 export const HomePage = () => {
     return (
-        <Typography>
-            Авторизируйтесь чтобы увидеть список контактов
+        <Typography variant={'h2'} mb={4}>
+            Авторизируйтесь чтобы <br/> увидеть список контактов
         </Typography>
     );
 }
